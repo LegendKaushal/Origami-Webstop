@@ -5,6 +5,15 @@
     align-items: center;
     background-color: orange  ;
 }
+
+.headerExtra{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: orange  ;
+}
+
 .content{
 
     display: flex;
