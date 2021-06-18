@@ -1,0 +1,16 @@
+.header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orange  ;
+}
+.content{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: cyan;
+    text-align: center;
+    color: purple;
+}
