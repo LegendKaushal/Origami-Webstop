@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: orange  ;
+    background-color: #ff9100  ;
 }
 
 .headerExtra{
@@ -11,15 +11,33 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: orange  ;
+    background-color: #ffa500  ;
 }
 
-.content{
+ .content{
 
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: cyan;
+    padding: 100px;
     text-align: center;
     color: purple;
+}
+body{
+    background-color: #00FFFF;
+
+}
+a:link{
+    color: cyan;
+    font-style: oblique;
+
+}
+a:visited{
+    color: black ;
+    font-family: monospace;
+    font:large ;
+}
+.item:hover img{
+    opacity:0.5;
+    ;
 }
